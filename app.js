@@ -7,10 +7,6 @@ var bodyParser = require('body-parser');
 
 //variables to require each page
 var index = require('./routes/index');
-var about = require('./routes/index');
-var contact = require('./routes/index');
-var projects = require('./routes/index');
-var services = require('./routes/index');
 
 var app = express();
 
@@ -28,10 +24,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 //use for all the pages
 app.use('/', index);
-app.use('/about', about);
-app.use('/contact', contact);
-app.use('/projects', projects);
-app.use('/services', services);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
