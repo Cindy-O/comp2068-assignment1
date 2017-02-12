@@ -7,10 +7,10 @@ var bodyParser = require('body-parser');
 
 //variables to require each page
 var index = require('./routes/index');
-var about = require('./routes/about');
-var contact = require('./routes/contact');
-var projects = require('./routes/projects');
-var services = require('./routes/services');
+var about = require('./routes/index');
+var contact = require('./routes/index');
+var projects = require('./routes/index');
+var services = require('./routes/index');
 
 var app = express();
 
