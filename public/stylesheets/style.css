@@ -6,7 +6,7 @@ header, body {
   background-color: #f1f4e3;
 }
 
-body nav {
+#headernav {
   padding-bottom: 20px;
 }
 
@@ -30,7 +30,6 @@ a:active {
 
 footer nav a{
   color: #68a771;
-  padding: 0px;
 }
 
 footer nav a:hover{
