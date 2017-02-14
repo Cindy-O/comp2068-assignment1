@@ -7,7 +7,7 @@ header, body {
 }
 
 body nav {
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 
 body {
@@ -41,6 +41,7 @@ footer {
   right: 0;
   bottom: 0;
   left: 0;
+  padding: 1em;
   background-color: #666961;
   color: #b3b6aa;
 }
