@@ -9,4 +9,9 @@ body {
 
 a {
   color: #666961;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #b3b6aa;
 }
