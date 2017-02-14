@@ -7,7 +7,24 @@
   <body>
     <% include ./partials/header.ejs %>
     <h1><%= title %></h1>
-    <p>Cindy is a student at Georgian College. Her favourite colour is green and she loves to program in JAVA.</p>
+    <form id="contact_form">
+      <div>
+          <label for="sender_name">Name</label>
+          <input type="text" name="sender_name" id="sender_name" required maxlength="25" />
+      </div>
+      <div>
+          <label for="sender_email">E-mail</label>
+          <input type="email" name="sender_email" id="sender_email" required />
+      </div>
+      <div>
+          <label for="sender_phone">Phone Number</label>
+          <input type="tel" name="sender_phone" id="sender_phone" />
+      </div>
+      <div>
+          <label for="sender_message">Message</label>
+          <textarea name="sender_message" id="sender_message" required />
+      </div>
+    </form>
   </body>
   <% include ./partials/footer.ejs %>
 </html>
