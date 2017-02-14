@@ -2,6 +2,8 @@ html {
   text-align: center;
 }
 
+
+/*Body styles*/
 header, body {
   background-color: #f1f4e3;
 }
@@ -15,6 +17,8 @@ body {
   font: 14px "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
 
+
+/*Anchor Styles*/
 a {
   color: #666961;
   text-decoration: none;
@@ -36,6 +40,8 @@ footer nav a:hover{
   color: #b3b6aa;
 }
 
+
+/*Footer styles*/
 footer {
   position: fixed;
   right: 0;
