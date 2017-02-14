@@ -28,6 +28,14 @@ a:active {
   color: #68a771;
 }
 
+footer nav a{
+  color: #68a771;
+}
+
+footer nav a:hover{
+  color: #b3b6aa;
+}
+
 footer {
   position: absolute;
   right: 0;
