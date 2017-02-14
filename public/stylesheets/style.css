@@ -1,5 +1,6 @@
 html {
   background-color: #f1f4e3;
+  text-align: center;
 }
 
 body {
@@ -13,5 +14,14 @@ a {
 }
 
 a:hover {
+  color: #b3b6aa;
+}
+
+a:active {
+  color: #68a771;
+}
+
+footer {
+  background-color: 666961;
   color: #b3b6aa;
 }
