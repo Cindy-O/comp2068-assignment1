@@ -6,8 +6,8 @@ header, body {
   background-color: #f1f4e3;
 }
 
-header nav {
-  padding: 10px;
+header nav a{
+  padding-bottom: 10px;
 }
 
 body {
