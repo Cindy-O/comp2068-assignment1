@@ -30,6 +30,7 @@ a:active {
 
 footer nav a{
   color: #68a771;
+  padding: 0px;
 }
 
 footer nav a:hover{
