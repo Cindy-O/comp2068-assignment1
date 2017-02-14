@@ -1,14 +1,9 @@
-footer {
-  background-color: 666961;
-  color: #b3b6aa;
-}
-
 html {
-  background-color: #f1f4e3;
   text-align: center;
 }
 
 body {
+  background-color: #f1f4e3;
   padding: 50px;
   font: 14px "Trebuchet MS", Helvetica, Arial, sans-serif;
 }
@@ -24,4 +19,9 @@ a:hover {
 
 a:active {
   color: #68a771;
+}
+
+footer {
+  background-color: 666961;
+  color: #b3b6aa;
 }
